@@ -1,6 +1,7 @@
+
 // https://adventofcode.com/2021/day/1
 
-fun main() {
+fun day1() {
     fun part1(input: List<String>): Int {
         val inputToInt = input.map { it.toInt() }
         var nIncreased = 0
